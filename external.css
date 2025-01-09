@@ -1,4 +1,12 @@
-div {
-    background-color:aquamarine;
-    margin: 10p
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 15px;
+    background-color:antiquewhite;
+    text-align: center;
+    padding: 5px;
+}
+p{
+    border-style: double;
+    border-color: black;
 }
